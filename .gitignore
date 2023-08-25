@@ -1,0 +1,8 @@
+# file module2.jar from n 2.1.b still should not be ignored
+build/
+*.jar
+!module2.jar
+application-local.properties
+.idea/
+.idea_copy
+!workspace.xml
